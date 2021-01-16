@@ -2,12 +2,16 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Prostage{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
 
-        {% block javascripts %}{% endblock %}
+        
     </head>
     <body>
+		{% block header %}
+			<div style="width:69%;height:60px;border:0px;background-color:black;text-align:center"> <font color=white size=30px><b> Prostage </b></font></div>
+		{% endblock %}
         {% block body %}{% endblock %}
+		{% block javascripts %}{% endblock %}
     </body>
 </html>
