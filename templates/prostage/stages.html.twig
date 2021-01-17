@@ -1,7 +1,24 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link
+					" href="/">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/entreprises">Entreprises</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/formations">Formations</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
 Cette page affichera le descriptif du stage ayant pour identifiant {{idstage}}
 
 {% endblock %}
